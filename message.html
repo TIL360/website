@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Complete School Management System</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#f5f7ff;color:#1a1a2e;line-height:1.7}
+.header{background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);color:white;padding:60px 20px;text-align:center}
+.header h1{font-size:36px;font-weight:700}
+.header p{font-size:18px;opacity:0.9;max-width:800px;margin:10px auto 0 auto}
+.badge{display:inline-block;background:rgba(255,255,255,0.2);padding:8px 20px;border-radius:30px;margin-top:15px;font-size:14px}
+.container{max-width:1250px;margin:-30px auto 0 auto;padding:20px;position:relative;z-index:2}
+.card{background:white;border-radius:16px;padding:28px;margin-bottom:25px;box-shadow:0 10px 30px rgba(0,0,0,0.08);border-left:5px solid #302b63}
+.card-header{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+.card-header span.num{background:#302b63;color:white;width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;font-size:16px;font-weight:700}
+.card-header h2{color:#302b63;font-size:20px}
+.card-body{display:flex;gap:25px;align-items:flex-start}
+.text-col{flex:1.1}
+.img-col{flex:0.9}
+.card ul{list-style:none;padding-left:0}
+.card ul li{padding:7px 0;padding-left:28px;position:relative;font-size:14.5px;color:#333}
+.card ul li::before{content:'✓';position:absolute;left:0;top:7px;background:#e8e5ff;color:#302b63;width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:bold}
+.highlight{background:linear-gradient(135deg,#f6f0ff,#e8e5ff);border-radius:10px;padding:12px;margin-top:12px;border:1px dashed #9d8df1;font-size:14px}
+.app-img{width:100%;height:auto;border-radius:12px;border:1px solid #ddd;box-shadow:0 8px 25px rgba(0,0,0,0.12);object-fit:contain}
+@media(max-width:900px){.card-body{flex-direction:column}.header h1{font-size:26px}}
+.footer{background:#0f0c29;color:white;text-align:center;padding:30px;margin-top:30px}
+.cta{background:linear-gradient(135deg,#302b63,#24243e);color:white;text-align:center;padding:40px;border-radius:16px;margin-bottom:25px}
+.btn{display:inline-block;background:white;color:#302b63;padding:12px 30px;border-radius:30px;text-decoration:none;font-weight:600;margin-top:15px}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>Complete School Management System</h1>
+<p>Offline + Super Fast + 100% Secure — One Software to Manage Your Entire School</p>
+<div class="badge">Trusted by 100+ Schools | Offline SQLite Database | Lifetime Support</div>
+</div>
+
+<div class="container">
+
+<div class="card">
+<div class="card-header"><span class="num">1</span><h2>Student Management System</h2></div>
+<div class="card-body">
+<div class="text-col">
+<ul>
+<li>Effortlessly transfer students from one class to another</li>
+<li>Add students online and seamlessly pull their data into the offline system</li>
+<li>Download template and bulk upload students via Excel sheet in one go</li>
+<li>Generate professional Student ID Cards directly from the system</li>
+<li>View Active and Inactive student records separately</li>
+<li>Generate School Leaving Certificates for inactive students</li>
+<li>Auto-generate Admission Forms at the time of enrollment</li>
+<li>Four comprehensive fee reports — Fully Paid, Partially Paid, Unpaid List & Date-wise Reports</li>
+<li>Generate bulk invoices for the entire school with a single click</li>
+<li>Create individual fee slips as required</li>
+<li>Intelligently delete an entire class, selected students, or a single student</li>
+<li>Access complete fee history of every student</li>
+</ul>
+</div>
+<div class="img-col"><img src="appimage/image1.png" class="app-img"></div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header"><span class="num">2</span><h2>Fee Management System</h2></div>
+<div class="card-body">
+<div class="text-col">
+<ul>
+<li>Apply additional fees beyond monthly charges (Examination, Registration, Annual Fund, Stationery, Transport, Miscellaneous) to an entire class at once</li>
+<li>Add custom fees individually for any specific student</li>
+<li>Streamlined fee collection with auto-calculation of Total, Collected, Balance, and Arrears</li>
+<li>Send instant fee notifications via WhatsApp Web integration</li>
+<li>With online integration, fee notifications are also accessible on the Parent Portal</li>
+</ul>
+<div class="highlight"><strong>Three Professional Fee Slip Designs:</strong><br>✓ Two slips per page for a single student<br>✓ Four slips per page covering two students<br>✓ Three copies per student — Student Copy, School Copy & Bank Copy</div>
+</div>
+<div class="img-col"><img src="appimage/image2.png" class="app-img"></div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header"><span class="num">3</span><h2>Staff Management & Salary System</h2></div>
+<div class="card-body">
+<div class="text-col">
+<ul>
+<li>Add staff members with photographs and comprehensive profiles</li>
+<li>Generate scanner-readable Staff ID Cards for automated attendance</li>
+<li>Customize card colors to match your school's branding and theme</li>
+<li>Complete salary management with provision to define Authorized and Availed Leaves with automatic deduction</li>
+<li>Maintain complete salary history including Security Deposit and Provident Fund records</li>
+<li>Track submitted documents (CV, CNIC, Certificates) within staff profiles</li>
+<li>Initiate monthly salaries for all staff members with a single click</li>
+<li>Professional Salary Slip Layouts: Two slips per staff member or slips for two staff members on a single page</li>
+</ul>
+</div>
+<div class="img-col"><img src="appimage/image3.png" class="app-img"></div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header"><span class="num">4</span><h2>Examination & Result Management</h2></div>
+<div class="card-body">
+<div class="text-col">
+<ul>
+<li>Create and manage subjects according to your institution's requirements</li>
+<li>Define custom grading and passing criteria</li>
+<li>Create examinations with a single click and assign students instantly</li>
+<li>Configure total marks with ease</li>
+<li>Generate class-wise result sheets with subject-wise total and obtained marks, automatic grading, Pass/Fail status, and merit positions</li>
+<li>Send result notifications instantly via WhatsApp Web</li>
+<li>Generate and save progress reports for the entire class with one click, or for an individual student</li>
+<li>Enter remarks directly into progress reports without manual effort</li>
+<li>Design professional progress reports featuring student photographs and school logo watermark</li>
+<li>Create date sheets instantly with a single click</li>
+<li><strong>With Online Integration:</strong> Teachers can update results via mobile, and you can pull complete result sheets and positioned progress reports into the offline system using a single pull button</li>
+</ul>
+</div>
+<div class="img-col"><img src="appimage/image4.png" class="app-img"></div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header"><span class="num">5</span><h2>Attendance Management System</h2></div>
+<div class="card-body">
+<div class="text-col">
+<ul>
+<li>Record daily attendance for students and staff with a single click</li>
+<li>Generate monthly attendance sheets and manage leaves efficiently</li>
+<li>Automated attendance through scanner-readable ID cards</li>
+<li>Comprehensive Absent / Present / Leave reports filtered class-wise</li>
+<li>Supports attendance marking via ID card punching / scanning</li>
+<li>Facilitates manual attendance marking through intuitive click-and-submit functionality</li>
+<li>With online integration, teachers can mark student attendance via mobile application, which can be seamlessly synchronized to the offline system using a single pull button</li>
+</ul>
+</div>
+<div class="img-col"><img src="appimage/image5.png" class="app-img"></div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header"><span class="num">6</span><h2>Question Bank & Paper Generation Studio</h2></div>
+<div class="card-body">
+<div class="text-col">
+<ul>
+<li>Develop comprehensive question banks categorized by subject and class</li>
+<li>Add MCQs, Short Answer, Long Answer, and Fill in the Blanks questions</li>
+<li><strong>Add questions individually with detailed control and smart duplicate protection</strong></li>
+<li><strong>Bulk import questions efficiently using Excel sheets according to a predefined layout</strong></li>
+<li>Effortlessly generate professional examination papers by selecting questions directly from the question bank</li>
+<li>Build colorful worksheets for junior classes (Playgroup to KG) including Alphabets, CVC Words, Tracing, and Drawing exercises</li>
+<li>Preview papers, adjust marks, and print high-quality PDFs with a single click</li>
+<li>Significantly reduce time and effort in paper preparation</li>
+<li><strong>With online integration, teachers can perform all these tasks via mobile — adding questions, building papers and worksheets — and you can seamlessly sync everything to your offline system using the pull functionality</strong></li>
+</ul>
+</div>
+<div class="img-col"><img src="appimage/image6.png" class="app-img"></div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header"><span class="num">7</span><h2>Expenses Management</h2></div>
+<div class="card-body">
+<div class="text-col">
+<ul>
+<li>Record daily school expenditures with detailed categorization</li>
+<li>Track expenses category-wise for better financial control</li>
+<li>Generate monthly and annual expense reports</li>
+<li>Automatic profit and loss calculation</li>
+</ul>
+</div>
+<div class="img-col"><img src="appimage/image7.png" class="app-img"></div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header"><span class="num">8</span><h2>School Ledger & Accounts</h2></div>
+<div class="card-body">
+<div class="text-col">
+<ul>
+<li>Maintain complete financial ledger covering school income and expenditures</li>
+<li>Monitor daily collections versus expenses in real-time</li>
+<li>View overall financial position at a glance</li>
+<li>Ensure transparent and accountable financial management</li>
+</ul>
+</div>
+<div class="img-col"><img src="appimage/image8.png" class="app-img"></div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header"><span class="num">9</span><h2>Role-Based Access Control & Security</h2></div>
+<div class="card-body">
+<div class="text-col">
+<ul>
+<li>Secure role-based logins for Admin, Teachers, Accountants, and Receptionists</li>
+<li>Granular access control — each role has permissions tailored to your requirements</li>
+<li>Highly secure offline SQLite database — your data remains in your complete possession</li>
+<li>Operates entirely offline — no internet dependency for daily operations</li>
+</ul>
+</div>
+<div class="img-col"><img src="appimage/image9.png" class="app-img"></div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header"><span class="num">10</span><h2>Theme Customization & Password Management</h2></div>
+<div class="card-body">
+<div class="text-col">
+<ul>
+<li>Personalize the software theme according to your preference</li>
+<li>Change your password securely at any time</li>
+<li>Customize ID card colors, school logo, and institutional branding</li>
+</ul>
+</div>
+<div class="img-col"><img src="appimage/image10.png" class="app-img"></div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header"><span class="num">11</span><h2>Backup & Online Synchronization Control</h2></div>
+<div class="card-body">
+<div class="text-col">
+<ul>
+<li>Instant database backup with a single click — your data, always safe</li>
+<li>Dedicated backup facility for student and staff images — never lose a photo again</li>
+<li>Complete control over data synchronization — Push to Online and Delete from Online remains entirely in your hands, no auto-sync surprises</li>
+<li>Optional Parent Portal integration for enhanced communication — connect school and home in real-time</li>
+<li>Parents can view live attendance, detailed results, and daily diary from their mobile — stay informed, anytime, anywhere</li>
+<li>Daily assigned tasks & homework tracking — parents know exactly what their child needs to do</li>
+<li>Instant notifications & announcements — from fee reminders to school events, reach every parent in seconds</li>
+<li>Build parent trust and increase admissions — a school that shows everything, wins every parent's heart</li>
+<li>Reduce 90% of parent calls and front-desk workload — let the portal answer for you</li>
+<li>Your school looks modern, professional, and transparent — the #1 reason parents choose you over others</li>
+<li>All-in-one Offline + Online system — works without internet in school, connects when you want</li>
+<li>Join 100+ growing institutes who switched to a system that actually saves time and brings parents closer</li>
+</ul>
+</div>
+<div class="img-col"><img src="appimage/image11.png" class="app-img"></div>
+</div>
+</div>
+
+<div class="cta">
+<h3>Ready for a Live Demonstration?</h3>
+<p>Experience the complete system in just 10 minutes. One powerful solution for your entire institution.</p>
+<a href="#" class="btn">Request a Demo</a>
+</div>
+
+</div>
+<div class="footer">
+<p>© 2026 School Management System | Offline, Fast & Secure | Crafted for Educational Institutions</p>
+</div>
+</body>
+</html>
